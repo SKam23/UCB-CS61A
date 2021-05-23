@@ -1,0 +1,28 @@
+{
+  "name": "q2",
+  "endpoint": "cal/okpy-test/su00/practice_final_1_q2",
+  "decryption_keypage": "https://ok-exam-key-server.apps.cs61a.org/",
+  "src": [
+    "q2.py"
+  ],
+  "tests": {
+    "tests/a.py": "ok_test",
+    "tests/b.py": "ok_test",
+    "tests/q2.py": "ok_test",
+    "tests/c.py": "ok_test"
+  },
+  "default_tests": [
+    "a",
+    "b",
+    "q2",
+    "c"
+  ],
+  "protocols": [
+    "restore",
+    "file_contents",
+    "analytics",
+    "unlock",
+    "grading",
+    "backup"
+  ]
+}
